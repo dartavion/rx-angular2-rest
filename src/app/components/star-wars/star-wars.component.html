@@ -1,0 +1,7 @@
+<div *ngFor="let character of characters">
+  {{character.name}}
+  <input type="button" value="{{character.name}}" (click)="handleClick(character.name)" />
+</div>
+<div>
+  <img class="image" [src]="images.image" />
+</div>
