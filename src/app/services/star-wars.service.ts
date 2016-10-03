@@ -9,8 +9,8 @@ export class StarWarsService {
 
   private charactersUrl = 'http://swapi.co/api/people';
   private googleImageUrl = 'https://www.googleapis.com/customsearch/v1?';
-  private cx = '013122818466828674084:g04t2f8jgjo';
-  private key = 'AIzaSyADsRflXgDFNb2r9LUT2KPCRb3fQAHFiy4';
+  private cx = '';
+  private key = '';
 
   constructor(private http: Http) { }
 
